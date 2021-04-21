@@ -1,13 +1,13 @@
+html {
+  box-sizing: border-box;
+  // min-width: 100vw;
+  // min-height: 100vh;
+}
+
 *,
 *::before,
 *::after {
-  border: none;
   box-sizing: inherit;
-}
-
-html {
-  // min-width: 320px;
-  box-sizing: border-box;
 }
 
 body {
@@ -15,21 +15,25 @@ body {
   padding: 0;
   min-width: 100vw;
   min-height: 100vh;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: space-between;
-  // align-items: center;
+
   background: url("../../images/pattern-curve.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 70%;
   background-position: bottom left;
   font-family: "Inter", sans-serif;
   font-size: 2rem; //32px
   font-weight: 300;
   color: $darkBlue;
 }
+@media screen and (min-width: 768px) {
+  body {
+    // display: flex;
+    // max-width: 90rem;
+    background-size: 40%;
+  }
+}
 .none {
-  display: none;
+  display: none !important;
 }
 .attribution {
   width: 100%;
@@ -37,7 +41,7 @@ body {
   text-align: center;
   color: black;
   position: absolute;
-  bottom: 0;
+  bottom: 1rem;
 }
 .attribution a {
   color: rgb(250, 168, 168);

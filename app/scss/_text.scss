@@ -1,11 +1,19 @@
 .slider {
   .text {
+    margin-top: 3.75rem;
+    position: relative;
+    bottom: 2rem;
     p {
+      margin-top: 0;
+      padding-top: 1.875rem;
       text-align: center;
       font-size: 18px;
       line-height: 24px;
       word-spacing: 1px;
-      margin-top: 3.75rem;
+      background: url(../../images/pattern-quotes.svg);
+      background-repeat: no-repeat;
+      background-size: 62px;
+      background-position: center 0px;
     }
     hgroup {
       text-align: center;
@@ -17,6 +25,38 @@
       h6 {
         color: $grayishBlue;
         margin-top: 4px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .slider {
+    .text {
+      margin: auto 0 200px 140px;
+      flex: 1;
+      p {
+        padding-top: 70px;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: left;
+        background-size: 122px;
+        background-position: 100px top;
+      }
+      hgroup {
+        display: flex;
+        align-items: center;
+        h5,
+        h6 {
+          font-size: 20px;
+        }
+        h5 {
+          font-weight: 700;
+          margin-right: 4px;
+        }
+        h6 {
+          font-weight: 500;
+          margin-top: 0;
+        }
       }
     }
   }
