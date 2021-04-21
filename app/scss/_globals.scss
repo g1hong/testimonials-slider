@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  border: none;
+  box-sizing: inherit;
+}
+
+html {
+  // min-width: 320px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-between;
+  // align-items: center;
+  background: url("../../images/pattern-curve.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom left;
+  font-family: "Inter", sans-serif;
+  font-size: 2rem; //32px
+  font-weight: 300;
+  color: $darkBlue;
+}
+.none {
+  display: none;
+}
+.attribution {
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+  color: black;
+  position: absolute;
+  bottom: 0;
+}
+.attribution a {
+  color: rgb(250, 168, 168);
+}

@@ -1,0 +1,47 @@
+.sliders {
+  max-width: 100vw;
+  min-height: 80vh;
+  margin: 24px;
+  background: url("../../images/pattern-bg.svg"),
+    url("../../images/pattern-quotes.svg");
+  background-repeat: no-repeat;
+  background-size: 100%, 20%;
+  background-position: top center, center 65%;
+
+  .slider {
+    .imgBtn {
+      width: fit-content;
+      margin: 0px auto;
+      position: relative;
+      top: 1.875rem;
+      .photo {
+        width: 255px;
+        border-radius: 0.25rem;
+        box-shadow: 0 30px 35px -30px #342159;
+      }
+      .btns {
+        width: 84px;
+        height: 42px;
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+        bottom: 2rem;
+        button {
+          padding: 0.9375rem;
+          background-color: white;
+          &:nth-child(odd) {
+            border-radius: 5rem 0 0 5rem;
+          }
+          &:nth-child(2n) {
+            border-radius: 0 5rem 5rem 0;
+          }
+          width: 50%;
+          img {
+            width: 10px;
+            height: 12px;
+          }
+        }
+      }
+    }
+  }
+}
