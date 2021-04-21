@@ -14,3 +14,4 @@
   21.04.21 )
 
 - git repository 생성 및 업로드
+- mobile 기본화면 완성
