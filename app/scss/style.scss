@@ -1,5 +1,7 @@
 @import "variables";
+@import "mixins";
 
 @import "globals";
-@import "sliders";
-@import "text";
+@import "layout";
+@import "slider-image";
+@import "slider-text";
