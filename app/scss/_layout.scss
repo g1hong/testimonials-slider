@@ -1,0 +1,18 @@
+.slider-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: column;
+  height: 100vh;
+  padding: $font-md;
+
+  // .slider-image {
+  //   // max-width: 24rem;
+  //   // flex: 1 0 0;
+  //   // padding: 1.875rem;
+  //   img {
+  //     width: 100%;
+  //     margin: auto;
+  //   }
+  // }
+}

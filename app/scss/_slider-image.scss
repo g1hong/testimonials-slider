@@ -1,0 +1,57 @@
+.slider-image {
+  max-width: 23rem;
+  max-height: 23rem;
+  padding: 1.875rem 2.25rem;
+  flex: 1 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-flow: column;
+  position: relative;
+  background: 30% 0% / 100% no-repeat url(../../images/pattern-bg.svg);
+
+  &__image {
+    img {
+      width: 100%;
+      margin: auto;
+      box-shadow: 0 35px 35px -35px rgb(55, 45, 100);
+    }
+    &--hidden {
+      display: none;
+    }
+    &--visible {
+      animation: fadeVisibility 800ms;
+    }
+  }
+
+  &__buttons {
+    position: relative;
+    bottom: 2rem;
+    width: 5.25rem;
+    height: 2.625rem;
+    display: flex;
+    background-color: $white;
+    border-radius: 2rem;
+    box-shadow: 0 35px 35px -35px rgb(55, 45, 100);
+  }
+
+  &__button {
+    padding: 0.9375rem 1rem;
+    width: 50%;
+    &:hover {
+      transform: scale(1.2, 1.2);
+    }
+    img {
+      position: absolute;
+      width: 10px;
+      height: 12px;
+    }
+  }
+
+  @include breakpoint-up(medium) {
+    align-items: flex-start;
+    &__buttons {
+      left: 1rem;
+    }
+  }
+}
