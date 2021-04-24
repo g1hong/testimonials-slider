@@ -21,15 +21,13 @@ body {
   font-weight: 300;
   color: $darkBlue;
 
-  background: bottom left / 85% no-repeat url("../../images/pattern-curve.svg");
+  background: bottom left / 85% no-repeat url("../images/pattern-curve.svg");
 
   @include breakpoint-up(medium) {
-    background: bottom left / 60% no-repeat
-      url("../../images/pattern-curve.svg");
+    background: bottom left / 60% no-repeat url("../images/pattern-curve.svg");
   }
   @include breakpoint-up(large) {
-    background: bottom left / 50% no-repeat
-      url("../../images/pattern-curve.svg");
+    background: bottom left / 50% no-repeat url("../images/pattern-curve.svg");
   }
 }
 

@@ -2,11 +2,11 @@ html { font-size: 100%; box-sizing: border-box; }
 
 *, *::before, *::after { box-sizing: inherit; }
 
-body { width: 100vw; height: 100vh; margin: 0; padding: 0; line-height: 1.3; font-family: "Inter", sans-serif; font-size: 2rem; font-weight: 300; color: #202046; background: bottom left/85% no-repeat url("../../images/pattern-curve.svg"); }
+body { width: 100vw; height: 100vh; margin: 0; padding: 0; line-height: 1.3; font-family: "Inter", sans-serif; font-size: 2rem; font-weight: 300; color: #202046; background: bottom left/85% no-repeat url("../images/pattern-curve.svg"); }
 
-@media (min-width: 48em) { body { background: bottom left/60% no-repeat url("../../images/pattern-curve.svg"); } }
+@media (min-width: 48em) { body { background: bottom left/60% no-repeat url("../images/pattern-curve.svg"); } }
 
-@media (min-width: 64em) { body { background: bottom left/50% no-repeat url("../../images/pattern-curve.svg"); } }
+@media (min-width: 64em) { body { background: bottom left/50% no-repeat url("../images/pattern-curve.svg"); } }
 
 a, a:visited, a:hover { text-decoration: none; }
 
@@ -62,7 +62,7 @@ a, a:visited, a:hover { text-decoration: none; }
 
 .slider-texts .slider-text--visible { animation: fadeVisibility 800ms; }
 
-.slider-texts .slider-text__quote { max-width: 24rem; min-height: 11rem; text-align: center; margin-top: 0; padding-top: 1.875rem; text-align: center; font-size: 1.125rem; line-height: 24px; word-spacing: 1px; background: top/60px no-repeat url("../../images/pattern-quotes.svg"); }
+.slider-texts .slider-text__quote { max-width: 24rem; min-height: 11rem; text-align: center; margin-top: 0; padding-top: 1.875rem; text-align: center; font-size: 1.125rem; line-height: 24px; word-spacing: 1px; background: top/60px no-repeat url("../images/pattern-quotes.svg"); }
 
 .slider-texts .slider-text__attribute { text-align: center; }
 
@@ -71,14 +71,14 @@ a, a:visited, a:hover { text-decoration: none; }
 .slider-texts .slider-text__attribute h6 { font-weight: 400; color: #babacf; }
 
 @media (min-width: 48em) { .slider-texts { position: relative; top: 1.5rem; left: 4rem; flex: 1; }
-  .slider-texts .slider-text__quote { text-align: left; font-size: 20px; line-height: 1.3; padding-top: 2.5rem; background: 3rem 0px/5rem no-repeat url("../../images/pattern-quotes.svg"); }
+  .slider-texts .slider-text__quote { text-align: left; font-size: 20px; line-height: 1.3; padding-top: 2.5rem; background: 3rem 0px/5rem no-repeat url("../images/pattern-quotes.svg"); }
   .slider-texts .slider-text__attribute { display: flex; text-align: left; }
   .slider-texts .slider-text__attribute h6 { margin-left: 0.5rem; } }
 
 @media (min-width: 64em) { .slider-texts { top: 1.5rem; left: 6rem; }
   .slider-texts .slider-text { bottom: 4rem; }
-  .slider-texts .slider-text__quote { max-width: 100%; font-size: 1.5rem; padding-top: 3rem; background: 6rem 0px/90px no-repeat url(../../images/pattern-quotes.svg); } }
+  .slider-texts .slider-text__quote { max-width: 100%; font-size: 1.5rem; padding-top: 3rem; background: 6rem 0px/90px no-repeat url("../images/pattern-quotes.svg"); } }
 
 @media (min-width: 87.5em) { .slider-texts { left: 7.5rem; }
-  .slider-texts .slider-text__quote { font-size: 2rem; padding-top: 4rem; background: 6rem 0px/120px no-repeat url(../../images/pattern-quotes.svg); } }
+  .slider-texts .slider-text__quote { font-size: 2rem; padding-top: 4rem; background: 6rem 0px/120px no-repeat url("../images/pattern-quotes.svg"); } }
 /*# sourceMappingURL=style.css.map */
