@@ -8,7 +8,7 @@
   justify-content: start;
   flex-flow: column;
   position: relative;
-  background: 30% 0% / 100% no-repeat url("../../images/pattern-bg.svg");
+  background: 30% 0% / 100% no-repeat url("../images/pattern-bg.svg");
 
   &__image {
     img {
@@ -58,7 +58,7 @@
     max-width: 24rem;
     max-height: 100%;
     align-items: flex-start;
-    background: 30% 0%/100% no-repeat url("../../images/pattern-bg.svg");
+    background: 30% 0%/100% no-repeat url("../images/pattern-bg.svg");
     &__buttons {
       left: 1rem;
       box-shadow: 0 20px 40px -25px #372d64;
@@ -70,7 +70,7 @@
     max-width: 42rem;
     align-items: flex-start;
     padding: 60px 90px 50px 60px;
-    background: 30% 0%/100% no-repeat url("../../images/pattern-bg.svg");
+    background: 30% 0%/100% no-repeat url("../images/pattern-bg.svg");
 
     &__buttons {
       left: 3.75rem;
