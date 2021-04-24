@@ -7,9 +7,15 @@
   padding: $font-md;
 
   @include breakpoint-up(medium) {
+    max-width: 50rem; //800px
     flex-flow: row-reverse;
-    max-width: 86.25rem; //1290px
     margin: 0 auto;
+  }
+  @include breakpoint-up(large) {
+    max-width: 70rem; //1120px
+  }
+  @include breakpoint-up(xlarge) {
+    max-width: 86.25rem; //1290px
     padding-right: 2.8125rem;
   }
 }

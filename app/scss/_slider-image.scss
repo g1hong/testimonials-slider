@@ -51,9 +51,9 @@
 
 @include breakpoint-up(medium) {
   .slider-image {
+    max-width: 24rem;
     max-height: 100%;
     align-items: flex-start;
-    padding-left: 0;
     background: 30% 0%/100% no-repeat url(../../images/pattern-bg.svg);
     &__buttons {
       left: 1rem;
@@ -61,7 +61,7 @@
     }
   }
 }
-@include breakpoint-up(xlarge) {
+@include breakpoint-up(large) {
   .slider-image {
     max-width: 42rem;
     align-items: flex-start;

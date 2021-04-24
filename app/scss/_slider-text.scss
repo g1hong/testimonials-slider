@@ -40,44 +40,56 @@
 
 @include breakpoint-up(medium) {
   .slider-texts {
-    width: calc(15rem + 10%);
+    // width: calc(15rem + 10%);
+    position: relative;
+    top: 1.5rem;
+    left: 4rem;
     flex: 1;
     .slider-text {
       &__quote {
         text-align: left;
-        background: 1rem 0px/5rem no-repeat
+        font-size: 20px;
+        line-height: 1.3;
+        padding-top: 2.5rem;
+        background: 3rem 0px/5rem no-repeat
           url("../../images/pattern-quotes.svg");
+      }
+      &__attribute {
+        display: flex;
+        text-align: left;
+        h6 {
+          margin-left: 0.5rem;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+@include breakpoint-up(large) {
+  .slider-texts {
+    top: 1.5rem;
+    left: 6rem;
+    .slider-text {
+      bottom: 4rem;
+      &__quote {
+        max-width: 100%;
+        font-size: $font-md;
+
+        padding-top: 3rem;
+        background: 6rem 0px/90px no-repeat url(../../images/pattern-quotes.svg);
       }
     }
   }
 }
 @include breakpoint-up(xlarge) {
   .slider-texts {
-    position: relative;
-    top: 1.5rem;
     left: 7.5rem;
-    flex: 1;
     .slider-text {
-      bottom: 4rem;
       &__quote {
-        max-width: 100%;
         font-size: $body-font;
-        line-height: 1.3;
         padding-top: 4rem;
         background: 6rem 0px/120px no-repeat
           url(../../images/pattern-quotes.svg);
-      }
-      &__attribute {
-        display: flex;
-        text-align: left;
-        h5,
-        h6 {
-          font-size: 1.125rem;
-        }
-        h6 {
-          margin-left: 0.5rem;
-          font-weight: 400;
-        }
       }
     }
   }

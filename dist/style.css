@@ -4,6 +4,8 @@ html { font-size: 100%; box-sizing: border-box; }
 
 body { margin: 0; padding: 0; line-height: 1.3; font-family: "Inter", sans-serif; font-size: 2rem; font-weight: 300; color: #202046; background: bottom left/85% no-repeat url("../../images/pattern-curve.svg"); }
 
+@media (min-width: 64em) { body { background: bottom left/60% no-repeat url("../../images/pattern-curve.svg"); } }
+
 @media (min-width: 87.5em) { body { background: bottom left/50% no-repeat url("../../images/pattern-curve.svg"); } }
 
 a, a:visited, a:hover { text-decoration: none; }
@@ -24,7 +26,11 @@ a, a:visited, a:hover { text-decoration: none; }
 
 .slider-container { display: flex; justify-content: flex-start; align-items: center; flex-flow: column; height: 100vh; padding: 1.5rem; }
 
-@media (min-width: 40em) { .slider-container { flex-flow: row-reverse; max-width: 86.25rem; margin: 0 auto; padding-right: 2.8125rem; } }
+@media (min-width: 48em) { .slider-container { max-width: 50rem; flex-flow: row-reverse; margin: 0 auto; } }
+
+@media (min-width: 64em) { .slider-container { max-width: 70rem; } }
+
+@media (min-width: 87.5em) { .slider-container { max-width: 86.25rem; padding-right: 2.8125rem; } }
 
 .slider-image { max-width: 21rem; max-height: calc(24rem - 3%); padding: 1.875rem 2.25rem; flex: 1 0 0; display: flex; align-items: center; justify-content: start; flex-flow: column; position: relative; background: 30% 0%/100% no-repeat url(../../images/pattern-bg.svg); }
 
@@ -42,10 +48,10 @@ a, a:visited, a:hover { text-decoration: none; }
 
 .slider-image__button img { position: absolute; width: 10px; height: 12px; }
 
-@media (min-width: 40em) { .slider-image { max-height: 100%; align-items: flex-start; padding-left: 0; background: 30% 0%/100% no-repeat url(../../images/pattern-bg.svg); }
+@media (min-width: 48em) { .slider-image { max-width: 24rem; max-height: 100%; align-items: flex-start; background: 30% 0%/100% no-repeat url(../../images/pattern-bg.svg); }
   .slider-image__buttons { left: 1rem; box-shadow: 0 20px 40px -25px #372d64; } }
 
-@media (min-width: 87.5em) { .slider-image { max-width: 42rem; align-items: flex-start; padding: 60px 90px 50px 60px; background: 30% 0%/100% no-repeat url(../../images/pattern-bg.svg); }
+@media (min-width: 64em) { .slider-image { max-width: 42rem; align-items: flex-start; padding: 60px 90px 50px 60px; background: 30% 0%/100% no-repeat url(../../images/pattern-bg.svg); }
   .slider-image__buttons { left: 3.75rem; width: 7.125rem; height: 3.75rem; }
   .slider-image__button { padding: 1.25rem 1.5rem; }
   .slider-image__button img { width: 12px; height: 19px; } }
@@ -64,13 +70,15 @@ a, a:visited, a:hover { text-decoration: none; }
 
 .slider-texts .slider-text__attribute h6 { color: #babacf; }
 
-@media (min-width: 40em) { .slider-texts { width: calc(15rem + 10%); flex: 1; }
-  .slider-texts .slider-text__quote { text-align: left; background: 1rem 0px/5rem no-repeat url("../../images/pattern-quotes.svg"); } }
-
-@media (min-width: 87.5em) { .slider-texts { position: relative; top: 1.5rem; left: 7.5rem; flex: 1; }
-  .slider-texts .slider-text { bottom: 4rem; }
-  .slider-texts .slider-text__quote { max-width: 100%; font-size: 2rem; line-height: 1.3; padding-top: 4rem; background: 6rem 0px/120px no-repeat url(../../images/pattern-quotes.svg); }
+@media (min-width: 48em) { .slider-texts { position: relative; top: 1.5rem; left: 4rem; flex: 1; }
+  .slider-texts .slider-text__quote { text-align: left; font-size: 20px; line-height: 1.3; padding-top: 2.5rem; background: 3rem 0px/5rem no-repeat url("../../images/pattern-quotes.svg"); }
   .slider-texts .slider-text__attribute { display: flex; text-align: left; }
-  .slider-texts .slider-text__attribute h5, .slider-texts .slider-text__attribute h6 { font-size: 1.125rem; }
   .slider-texts .slider-text__attribute h6 { margin-left: 0.5rem; font-weight: 400; } }
+
+@media (min-width: 64em) { .slider-texts { top: 1.5rem; left: 6rem; }
+  .slider-texts .slider-text { bottom: 4rem; }
+  .slider-texts .slider-text__quote { max-width: 100%; font-size: 1.5rem; padding-top: 3rem; background: 6rem 0px/90px no-repeat url(../../images/pattern-quotes.svg); } }
+
+@media (min-width: 87.5em) { .slider-texts { left: 7.5rem; }
+  .slider-texts .slider-text__quote { font-size: 2rem; padding-top: 4rem; background: 6rem 0px/120px no-repeat url(../../images/pattern-quotes.svg); } }
 /*# sourceMappingURL=style.css.map */
