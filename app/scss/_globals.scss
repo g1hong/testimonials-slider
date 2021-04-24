@@ -10,6 +10,8 @@ html {
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
   margin: 0;
   padding: 0;
   line-height: 1.3;
@@ -21,11 +23,11 @@ body {
 
   background: bottom left / 85% no-repeat url("../../images/pattern-curve.svg");
 
-  @include breakpoint-up(large) {
+  @include breakpoint-up(medium) {
     background: bottom left / 60% no-repeat
       url("../../images/pattern-curve.svg");
   }
-  @include breakpoint-up(xlarge) {
+  @include breakpoint-up(large) {
     background: bottom left / 50% no-repeat
       url("../../images/pattern-curve.svg");
   }

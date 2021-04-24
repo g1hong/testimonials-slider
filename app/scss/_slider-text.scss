@@ -14,6 +14,7 @@
 
     &__quote {
       max-width: 24rem;
+      min-height: 11rem;
       text-align: center;
       margin-top: 0;
       padding-top: 1.875rem;
@@ -32,6 +33,7 @@
         font-size: 1rem;
       }
       h6 {
+        font-weight: 400;
         color: $grayishBlue;
       }
     }
@@ -59,7 +61,6 @@
         text-align: left;
         h6 {
           margin-left: 0.5rem;
-          font-weight: 400;
         }
       }
     }
