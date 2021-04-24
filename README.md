@@ -15,3 +15,12 @@
 
 - git repository 생성 및 업로드
 - mobile 기본화면 완성
+- desktop(1440px) 기준 정적페이지 완성
+
+  21.04.23 )
+
+- html 변수명 수정, scss 재구축 모바일375 구현완료
+
+  21.04.24 )
+
+- desktop 1440px 기준 구현완료
