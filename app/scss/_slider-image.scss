@@ -1,6 +1,6 @@
 .slider-image {
-  max-width: 23rem;
-  max-height: 23rem;
+  max-width: 21rem;
+  max-height: calc(24rem - 3%);
   padding: 1.875rem 2.25rem;
   flex: 1 0 0;
   display: flex;
@@ -31,8 +31,8 @@
     height: 2.625rem;
     display: flex;
     background-color: $white;
-    border-radius: 2rem;
     box-shadow: 0 35px 35px -35px rgb(55, 45, 100);
+    border-radius: 2rem;
   }
 
   &__button {
@@ -47,11 +47,37 @@
       height: 12px;
     }
   }
+}
 
-  @include breakpoint-up(medium) {
+@include breakpoint-up(medium) {
+  .slider-image {
+    max-height: 100%;
     align-items: flex-start;
+    padding-left: 0;
+    background: 30% 0%/100% no-repeat url(../../images/pattern-bg.svg);
     &__buttons {
       left: 1rem;
+      box-shadow: 0 20px 40px -25px #372d64;
+    }
+  }
+}
+@include breakpoint-up(xlarge) {
+  .slider-image {
+    max-width: 42rem;
+    align-items: flex-start;
+    padding: 60px 90px 50px 60px;
+    background: 30% 0%/100% no-repeat url(../../images/pattern-bg.svg);
+    &__buttons {
+      left: 3.75rem;
+      width: 7.125rem;
+      height: 3.75rem;
+    }
+    &__button {
+      padding: 1.25rem 1.5rem;
+      img {
+        width: 12px;
+        height: 19px;
+      }
     }
   }
 }

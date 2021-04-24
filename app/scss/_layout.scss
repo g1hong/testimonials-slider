@@ -6,13 +6,10 @@
   height: 100vh;
   padding: $font-md;
 
-  // .slider-image {
-  //   // max-width: 24rem;
-  //   // flex: 1 0 0;
-  //   // padding: 1.875rem;
-  //   img {
-  //     width: 100%;
-  //     margin: auto;
-  //   }
-  // }
+  @include breakpoint-up(medium) {
+    flex-flow: row-reverse;
+    max-width: 86.25rem; //1290px
+    margin: 0 auto;
+    padding-right: 2.8125rem;
+  }
 }

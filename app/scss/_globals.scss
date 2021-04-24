@@ -23,13 +23,13 @@ body {
   font-weight: 300;
   color: $darkBlue;
 
-  background: bottom left / 90% no-repeat url("../../images/pattern-curve.svg");
+  background: bottom left / 85% no-repeat url("../../images/pattern-curve.svg");
   // display: flex;
   // justify-content: center;
   // align-items: center;
 
-  @include breakpoint-up(medium) {
-    background: bottom left / 70% no-repeat
+  @include breakpoint-up(xlarge) {
+    background: bottom left / 50% no-repeat
       url("../../images/pattern-curve.svg");
   }
 }
